@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://mauricio-acuna.github.io/estressConIA/sitemap.xml

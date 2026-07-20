@@ -29,6 +29,7 @@ La experiencia está diseñada alrededor de tres acciones:
 - Check-in orientativo que no calcula diagnósticos ni niveles clínicos de riesgo.
 - Pausa guiada de respiración de un minuto.
 - Página independiente con orientación al presente, descarga de tareas, revisión corporal suave y preparación de consultas.
+- Guía editorial, directorio de recursos y explicación detallada de privacidad.
 - Ejemplos de instrucciones copiables para interactuar con una IA.
 - Recomendaciones de privacidad antes de compartir información.
 - Límites explícitos sobre diagnóstico, urgencias y atención profesional.
@@ -71,6 +72,9 @@ El proyecto evita dependencias y procesos de compilación:
 estressConIA/
 ├── index.html       # Contenido y estructura de la página
 ├── ayuda.html        # Herramientas domésticas previas o complementarias a consulta
+├── guia.html         # Marco para usar IA con criterio propio
+├── recursos.html     # Fuentes sanitarias y rutas de ayuda
+├── privacidad.html   # Tratamiento local de datos y límites
 ├── styles.css       # Sistema visual y diseño responsive
 ├── script.js        # Check-in, copiado y pausa guiada
 ├── ayuda.js          # Interacciones privadas de la página de herramientas
