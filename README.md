@@ -7,7 +7,7 @@ Sitio web educativo en español sobre el uso responsable de la inteligencia arti
 
 ## Estado del proyecto
 
-**En desarrollo.** La aplicación funciona localmente como sitio estático. Su publicación en GitHub Pages está pendiente de subir la primera versión al repositorio y habilitar el despliegue.
+**Publicado y en desarrollo activo.** La aplicación está disponible como sitio estático mediante GitHub Pages. Las mejoras posteriores se incorporarán de forma versionada en este repositorio.
 
 Repositorio: [github.com/mauricio-acuna/estressConIA](https://github.com/mauricio-acuna/estressConIA)
 
@@ -119,8 +119,6 @@ En España, ante una emergencia vital inmediata debe llamarse al **112**. La Lí
 
 ## Próximos pasos
 
-- Inicializar el repositorio Git local y publicar la primera versión.
-- Habilitar GitHub Pages y verificar la URL pública.
 - Ejecutar una auditoría de accesibilidad y rendimiento.
 - Probar la experiencia en navegadores y tamaños de pantalla reales.
 - Añadir capturas del sitio una vez estabilizado el diseño.
