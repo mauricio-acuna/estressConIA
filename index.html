@@ -1,0 +1,132 @@
+<!doctype html>
+<html lang="es">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="Una guía práctica para usar la inteligencia artificial con criterio al gestionar el estrés, sin sustituir la atención profesional.">
+    <meta name="theme-color" content="#f4f1ea">
+    <title>Pausa · IA y estrés con criterio</title>
+    <link rel="stylesheet" href="styles.css">
+  </head>
+  <body>
+    <a class="skip-link" href="#contenido">Saltar al contenido</a>
+
+    <header class="site-header" id="inicio">
+      <nav class="nav shell" aria-label="Navegación principal">
+        <a class="brand" href="#inicio" aria-label="Pausa, inicio"><span aria-hidden="true">●</span> pausa</a>
+        <div class="nav-links">
+          <a href="#orientacion">Orientación</a>
+          <a href="#herramientas">Herramientas</a>
+          <a href="#limites">Límites</a>
+        </div>
+        <a class="nav-cta" href="#check-in">Hacer check-in</a>
+      </nav>
+    </header>
+
+    <main id="contenido">
+      <section class="hero shell" aria-labelledby="hero-title">
+        <div class="hero-copy">
+          <p class="kicker">IA, autocuidado y salud mental</p>
+          <h1 id="hero-title">La IA puede ayudarte a <em>poner orden</em>. No a diagnosticarte.</h1>
+          <p class="lead">Una guía para observar lo que te pasa, preparar una conversación útil y elegir el siguiente paso con calma. Sin promesas clínicas ni respuestas automáticas disfrazadas de certezas.</p>
+          <div class="actions">
+            <a class="button primary" href="#check-in">Empezar por cómo estoy</a>
+            <a class="button text-button" href="#limites">Qué no debe hacer una IA <span aria-hidden="true">→</span></a>
+          </div>
+          <p class="privacy-note"><span aria-hidden="true">◇</span> Este ejercicio funciona en tu navegador y no envía tus respuestas.</p>
+        </div>
+
+        <aside class="signal-card" aria-label="Idea principal">
+          <div class="signal-visual" aria-hidden="true"><span></span><span></span><span></span><span></span><span></span></div>
+          <p class="card-label">Una regla sencilla</p>
+          <blockquote>Usa la IA para formular mejores preguntas, no para cerrar un diagnóstico.</blockquote>
+          <p>Si un síntoma es intenso, nuevo o preocupante, prioriza ayuda humana.</p>
+        </aside>
+      </section>
+
+      <section class="principles" aria-label="Principios del sitio">
+        <div class="shell principles-grid">
+          <p><strong>01</strong><span>Observar sin alarmarse</span></p>
+          <p><strong>02</strong><span>Actuar con pasos pequeños</span></p>
+          <p><strong>03</strong><span>Escalar cuando hace falta</span></p>
+        </div>
+      </section>
+
+      <section class="section shell" id="orientacion">
+        <div class="section-intro">
+          <p class="kicker">Antes de abrir un chatbot</p>
+          <h2>¿Qué necesitas ahora?</h2>
+          <p>El estrés no siempre pide la misma respuesta. Distinguir entre organizarte, regular la activación o pedir apoyo evita exigirle a una herramienta más de lo que puede ofrecer.</p>
+        </div>
+        <div class="path-grid">
+          <article class="path-card"><span class="number">01</span><h3>Entender el patrón</h3><p>Ordena cuándo ocurre, qué notas en el cuerpo, cuánto dura y qué parece aliviarlo.</p><p class="use-ai">La IA puede resumir un registro sin interpretarlo como diagnóstico.</p></article>
+          <article class="path-card featured"><span class="number">02</span><h3>Bajar una marcha</h3><p>Haz una pausa breve, reduce estímulos y recupera una respiración cómoda, sin forzarla.</p><button class="inline-action" type="button" data-open-breathing>Probar una pausa de 1 minuto →</button></article>
+          <article class="path-card"><span class="number">03</span><h3>Hablar con alguien</h3><p>Prepara tres datos: qué ocurre, desde cuándo y cómo afecta tu vida cotidiana.</p><p class="use-ai">La IA puede ayudarte a redactar ese resumen para una consulta.</p></article>
+        </div>
+      </section>
+
+      <section class="section check-section" id="check-in">
+        <div class="shell check-layout">
+          <div>
+            <p class="kicker">Check-in privado</p>
+            <h2>Un minuto para ubicarte</h2>
+            <p>No es un test clínico ni calcula un nivel de riesgo. Solo te ayuda a elegir un siguiente paso razonable.</p>
+          </div>
+          <form class="check-card" id="check-form">
+            <fieldset>
+              <legend>Ahora mismo, ¿qué describe mejor tu situación?</legend>
+              <label><input type="radio" name="state" value="mild"> Estoy tenso/a, pero puedo continuar con mi día</label>
+              <label><input type="radio" name="state" value="persistent"> Llevo días o semanas así y está afectando mi descanso o rutina</label>
+              <label><input type="radio" name="state" value="urgent"> Tengo síntomas intensos, me siento en peligro o no puedo afrontarlo</label>
+            </fieldset>
+            <button class="button primary" type="submit">Ver un siguiente paso</button>
+            <div class="check-result" id="check-result" aria-live="polite" hidden></div>
+          </form>
+        </div>
+      </section>
+
+      <section class="section shell" id="herramientas">
+        <div class="section-intro split-title">
+          <div><p class="kicker">Usos concretos</p><h2>Encargos que sí tienen sentido</h2></div>
+          <p>Evita compartir nombres, historiales médicos, documentos o datos que permitan identificarte. Revisa siempre la respuesta antes de usarla.</p>
+        </div>
+        <div class="prompt-list">
+          <article><span>Registrar</span><div><h3>Convertir notas dispersas en un registro</h3><p>“Organiza estas notas por fecha, situación, sensación corporal y qué ayudó. No sugieras diagnósticos.”</p></div><button class="copy-button" type="button" aria-label="Copiar ejemplo de registro">Copiar</button></article>
+          <article><span>Preparar</span><div><h3>Resumir para una consulta</h3><p>“Ayúdame a redactar un resumen breve con duración, frecuencia, impacto y preguntas para mi profesional.”</p></div><button class="copy-button" type="button" aria-label="Copiar ejemplo de consulta">Copiar</button></article>
+          <article><span>Planificar</span><div><h3>Diseñar un paso pequeño</h3><p>“Propón tres acciones de menos de diez minutos para reducir mi carga hoy. Pregúntame antes por mis límites.”</p></div><button class="copy-button" type="button" aria-label="Copiar ejemplo de planificación">Copiar</button></article>
+        </div>
+      </section>
+
+      <section class="section limits-section" id="limites">
+        <div class="shell limits-grid">
+          <div><p class="kicker light">Límites claros</p><h2>No delegues decisiones de salud a una respuesta plausible.</h2></div>
+          <div class="limits-list">
+            <p><span>×</span><strong>No diagnostica.</strong> Puede equivocarse, omitir contexto o inventar datos.</p>
+            <p><span>×</span><strong>No interpreta urgencias.</strong> Ante síntomas intensos o peligro inmediato, contacta con emergencias.</p>
+            <p><span>×</span><strong>No sustituye una relación terapéutica.</strong> La escucha, el seguimiento y la responsabilidad clínica son humanas.</p>
+            <p><span>×</span><strong>No necesita tus datos personales.</strong> Comparte lo mínimo y anonimiza cualquier registro.</p>
+          </div>
+        </div>
+      </section>
+
+      <section class="section shell evidence" id="fuentes">
+        <div class="section-intro"><p class="kicker">Información y ayuda</p><h2>Fuentes verificables, no sellos decorativos</h2><p>El estrés prolongado puede afectar el sueño, el ánimo y la salud física. Si los síntomas son graves o duran dos semanas o más, conviene consultar con un profesional.</p></div>
+        <div class="resource-list">
+          <a href="https://medlineplus.gov/spanish/stress.html" target="_blank" rel="noopener noreferrer"><span>NIH · MedlinePlus</span><strong>Estrés: información, manejo y cuándo pedir ayuda</strong><b aria-hidden="true">↗</b></a>
+          <a href="https://www.sanidad.gob.es/linea024/home.htm" target="_blank" rel="noopener noreferrer"><span>Ministerio de Sanidad · España</span><strong>Línea 024 de atención a la conducta suicida</strong><b aria-hidden="true">↗</b></a>
+        </div>
+        <div class="urgent-note"><strong>Si hay peligro inmediato en España, llama al 112.</strong> Si tienes pensamientos suicidas o necesitas apoyo relacionado, la línea 024 es gratuita, confidencial y funciona las 24 horas. Si estás en otro país, usa el número local de emergencias.</div>
+      </section>
+    </main>
+
+    <footer class="footer"><div class="shell footer-grid"><div><a class="brand" href="#inicio"><span aria-hidden="true">●</span> pausa</a><p>IA y estrés, con criterio humano.</p></div><p>Contenido educativo. No ofrece diagnóstico ni tratamiento.<br>Última revisión: julio de 2026.</p></div></footer>
+
+    <dialog class="breathing-dialog" id="breathing-dialog" aria-labelledby="breathing-title">
+      <button class="dialog-close" type="button" aria-label="Cerrar">×</button>
+      <p class="kicker">Pausa guiada</p><h2 id="breathing-title">Respira de forma cómoda</h2>
+      <div class="breathing-orb" aria-hidden="true"></div><p class="breathing-cue" id="breathing-cue">Prepárate</p><p id="breathing-time">1:00</p>
+      <button class="button primary" id="breathing-start" type="button">Empezar</button><p class="dialog-note">Detente si notas mareo o malestar. No necesitas respirar profundamente.</p>
+    </dialog>
+    <script src="script.js"></script>
+  </body>
+</html>
