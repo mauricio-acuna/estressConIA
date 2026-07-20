@@ -30,6 +30,7 @@ La experiencia está diseñada alrededor de tres acciones:
 - Pausa guiada de respiración de un minuto.
 - Página independiente con orientación al presente, descarga de tareas, revisión corporal suave y preparación de consultas.
 - Guía editorial, directorio de recursos y explicación detallada de privacidad.
+- Selección bibliográfica y directorio orientativo de servicios sanitarios oficiales en España.
 - Ejemplos de instrucciones copiables para interactuar con una IA.
 - Recomendaciones de privacidad antes de compartir información.
 - Límites explícitos sobre diagnóstico, urgencias y atención profesional.
