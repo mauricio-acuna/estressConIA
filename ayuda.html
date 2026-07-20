@@ -1,0 +1,84 @@
+<!doctype html>
+<html lang="es">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="Herramientas breves y privadas para hacer una pausa, orientarse, ordenar cargas y preparar una consulta profesional.">
+    <meta name="theme-color" content="#f4f1ea">
+    <title>Herramientas para casa · Pausa</title>
+    <link rel="stylesheet" href="styles.css">
+  </head>
+  <body>
+    <a class="skip-link" href="#contenido">Saltar al contenido</a>
+    <header class="site-header">
+      <nav class="nav shell" aria-label="Navegación principal">
+        <a class="brand" href="index.html"><span aria-hidden="true">●</span> pausa</a>
+        <div class="nav-links"><a href="#orientarse">Orientarse</a><a href="#cuerpo">Cuerpo</a><a href="#ordenar">Ordenar</a><a href="#consulta">Consulta</a></div>
+        <a class="nav-cta" href="index.html">Volver al inicio</a>
+      </nav>
+    </header>
+
+    <main id="contenido">
+      <section class="tools-hero shell">
+        <p class="kicker">Caja de herramientas privada</p>
+        <h1>Algo pequeño que puedes hacer <em>ahora</em>.</h1>
+        <p class="lead">Elige una sola herramienta. No necesitas completarlas todas ni sentirte mejor de inmediato. Aquí no hay puntuaciones, diagnósticos ni datos enviados.</p>
+        <div class="scope-strip"><strong>Antes de empezar:</strong> estas actividades son apoyo educativo previo o complementario a una consulta; no sustituyen atención médica o psicológica.</div>
+      </section>
+
+      <section class="tool-section shell" id="orientarse">
+        <div class="tool-heading"><div><p class="kicker">01 · Orientarse</p><h2>Volver al entorno</h2></div><p>Cuando la atención queda atrapada en pensamientos o sensaciones, nombrar elementos presentes puede ayudarte a reconectar con el lugar en el que estás. Puedes parar en cualquier momento.</p></div>
+        <div class="tool-panel" id="grounding-tool">
+          <div class="grounding-progress" aria-hidden="true"><span class="active"></span><span></span><span></span><span></span><span></span></div>
+          <div class="grounding-stage"><p class="kicker" id="grounding-count">Paso 1 de 5</p><h3 id="grounding-title">Mira a tu alrededor</h3><p id="grounding-help">Nombra cinco cosas que puedes ver, sin intentar juzgarlas.</p><textarea id="grounding-note" aria-label="Notas del paso actual" placeholder="Puedes escribirlas aquí o nombrarlas mentalmente…"></textarea></div>
+          <div class="panel-actions"><button class="button primary" id="grounding-next" type="button">Siguiente</button><button class="button secondary" id="grounding-reset" type="button">Reiniciar</button></div>
+          <p class="source-note">Adaptación educativa de habilidades de anclaje descritas por la Organización Mundial de la Salud.</p>
+        </div>
+      </section>
+
+      <section class="tool-section shell" id="cuerpo">
+        <div class="tool-heading"><div><p class="kicker">02 · Cuerpo</p><h2>Soltar sin forzar</h2></div><p>Revisa tres zonas habituales de tensión. No estires hasta sentir dolor. Si tienes una lesión o una indicación médica, respétala y omite cualquier movimiento dudoso.</p></div>
+        <div class="release-grid">
+          <article class="release-card"><span class="number">Mandíbula</span><h3>Deja un pequeño espacio</h3><p>Separa suavemente los dientes y permite que la lengua descanse.</p><button class="button secondary release-button" type="button">Hecho</button></article>
+          <article class="release-card"><span class="number">Hombros</span><h3>Reduce el esfuerzo</h3><p>Observa si están elevados. Déjalos bajar solo hasta donde resulte cómodo.</p><button class="button secondary release-button" type="button">Hecho</button></article>
+          <article class="release-card"><span class="number">Manos</span><h3>Afloja el agarre</h3><p>Apóyalas y permite que los dedos dejen de apretar.</p><button class="button secondary release-button" type="button">Hecho</button></article>
+        </div>
+      </section>
+
+      <section class="tool-section shell" id="ordenar">
+        <div class="tool-heading"><div><p class="kicker">03 · Ordenar</p><h2>Sacar carga de la cabeza</h2></div><p>Escribe una preocupación o tarea cada vez y decide solo dónde colocarla: hoy, después o pedir ayuda. No es necesario resolverla ahora.</p></div>
+        <div class="tool-panel">
+          <form class="priority-form" id="priority-form"><label class="skip-link" for="priority-input">Preocupación o tarea</label><input class="priority-input" id="priority-input" placeholder="Escribe una tarea o preocupación breve" required><label class="skip-link" for="priority-destination">Dónde colocarla</label><select class="priority-input" id="priority-destination"><option value="today">Hoy</option><option value="later">Después</option><option value="help">Con apoyo</option></select><button class="button primary" type="submit">Añadir</button></form>
+          <div class="priority-list">
+            <section class="priority-column"><h3>Hoy · una acción pequeña</h3><ul data-priority="today"></ul></section>
+            <section class="priority-column"><h3>Después · puede esperar</h3><ul data-priority="later"></ul></section>
+            <section class="priority-column"><h3>Con apoyo · no tengo que hacerlo solo/a</h3><ul data-priority="help"></ul></section>
+          </div>
+          <p class="source-note">Tus entradas permanecen únicamente en esta pestaña y desaparecen al recargar.</p>
+        </div>
+      </section>
+
+      <section class="tool-section shell" id="consulta">
+        <div class="tool-heading"><div><p class="kicker">04 · Prepararse</p><h2>Un resumen para consultar</h2></div><p>Ordenar estos datos puede facilitar una conversación con un profesional. Escribe solo lo que te resulte seguro; nada se almacena ni se envía.</p></div>
+        <form class="tool-panel" id="consult-form">
+          <div class="note-grid">
+            <label>¿Qué ocurre?<textarea name="what" placeholder="Describe brevemente lo que notas"></textarea></label>
+            <label>¿Desde cuándo y con qué frecuencia?<textarea name="when" placeholder="Por ejemplo: desde hace dos semanas, varias noches…"></textarea></label>
+            <label>¿Cómo afecta tu rutina?<textarea name="impact" placeholder="Sueño, trabajo, alimentación, relaciones…"></textarea></label>
+            <label>¿Qué parece ayudar o empeorar?<textarea name="changes" placeholder="Situaciones, hábitos o momentos del día"></textarea></label>
+            <label>¿Qué quieres preguntar?<textarea name="questions" placeholder="Anota tus dudas principales"></textarea></label>
+          </div>
+          <div class="panel-actions"><button class="button primary" type="submit">Crear resumen</button><button class="button secondary" id="clear-consult" type="button">Borrar</button></div>
+          <div class="summary-output" id="summary-output" aria-live="polite" hidden></div>
+        </form>
+      </section>
+
+      <section class="tool-section shell">
+        <div class="safety-card"><div><h2>Hay momentos para no esperar.</h2><p>Si hay peligro inmediato en España, llama al 112. Para pensamientos suicidas o apoyo relacionado, llama al 024. Si estás en otro país, contacta con los servicios de emergencia locales.</p></div><a class="button primary" href="https://www.sanidad.gob.es/linea024/home.htm" target="_blank" rel="noopener noreferrer">Información del 024 ↗</a></div>
+      </section>
+    </main>
+
+    <footer class="footer"><div class="shell footer-grid"><div><a class="brand" href="index.html"><span aria-hidden="true">●</span> pausa</a><p>Herramientas educativas, no tratamiento.</p></div><p><a href="https://tdr.who.int/home/our-work/global-engagement/9789240003927">OMS</a> · <a href="https://medlineplus.gov/spanish/stress.html">MedlinePlus</a><br>Las respuestas no salen de tu navegador.</p></div></footer>
+    <script src="ayuda.js"></script>
+  </body>
+</html>
